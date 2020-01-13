@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="91智能机"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_15"/>
+
+    <TextView
+        android:id="@+id/mVersionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:text="版本号:"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="刷卡" />
+
+    <Button
+        android:visibility="visible"
+        android:id="@+id/btn_setting"
+        android:text="设置"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+
+    <Button
+        android:visibility="gone"
+        android:layout_toLeftOf="@id/btn_setting"
+        android:id="@+id/btn_setting1"
+        android:text="+数据"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+
+</RelativeLayout>

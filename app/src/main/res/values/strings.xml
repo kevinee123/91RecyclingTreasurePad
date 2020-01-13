@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">91RecyclingTreasurePad</string>
+    <string name="app_name">91回收宝</string>
+    <string-array name="port">
+        <item >NET</item>
+        <item >BLE</item>
+        <item >USB</item>
+    </string-array>
+    <string name="connect">连接</string>
+    <string name="discon">断开连接</string>
+    <string name="hint">Please input IP</string>
+    <string name="contextandcode">print context,lineAndBarCode</string>
+    <string name="read">Read Buffer</string>
+    <string name="image">Print Image</string>
+    <string name="image1">Print Raste Image</string>
+    <string name="text">Print text</string>
+    <string name="barcode">Print barCode</string>
+    <string name="bleselect">Please select BLE dev</string>
+    <string name="usbselect">Please select USB dev</string>
+    <string name="toast_discon_success">断开连接成功</string>
+    <string name="toast_discon_faile">断开连接失败</string>
+    <string name="toast_present_con">未连接</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_failed">发送失败</string>
+    <string name="not_con_printer">未连接设备</string>
+    <string name="usb_pre_con">present connected Usb dev:</string>
+    <string name="con_success">连接打印机成功</string>
+    <string name="con_failed">连接打印机失败</string>
+    <string name="con_has_discon">已经连接了</string>
+    <string name="sb">Select</string>
+    <string name="start_pos_activity">Start PosPrint</string>
+    <string name="qrcode">Print QRcode</string>
+
+    <string name="update_app">正在下载最新版本，请根据提示进行安装</string>
 </resources>
