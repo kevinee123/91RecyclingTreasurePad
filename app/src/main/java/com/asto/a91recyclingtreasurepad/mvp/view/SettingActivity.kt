@@ -69,8 +69,8 @@ class SettingActivity : Activity() {
                 }
                 1 -> {
                     //测试服务器
-                    ASimpleCache.get(this).put("httpAddress", "http://47.99.201.99:8071/api/")
-                    SharedPreferencesManager.getInstance().putData(this, "user", "httpAddress", "http://47.99.201.99:8071/api/")
+                    ASimpleCache.get(this).put("httpAddress", "http://47.99.201.99:8051/api/")
+                    SharedPreferencesManager.getInstance().putData(this, "user", "httpAddress", "http://47.99.201.99:8051/api/")
                 }
                 2 -> {
                     //debug服务器
