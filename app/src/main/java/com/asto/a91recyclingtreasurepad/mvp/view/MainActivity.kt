@@ -914,7 +914,7 @@ class MainActivity : BaseActivity<MainPresenterImpl>(), BaseContract.MainAcView 
     }
 
     fun getAPPServiceAddress(): String {
-        if (Constant.url.BASE.equals("http://47.99.201.99:8051//api/")) {
+        if (Constant.url.BASE.equals("http://47.99.201.99:8051/api/")) {
             return "(测试)"
         } else if (Constant.url.BASE.equals("http://192.168.1.101:7011/api/")) {
             return "(Debug)"
